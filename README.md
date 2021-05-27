@@ -10,6 +10,14 @@ This project was designed according to a generic NLP workflow. One data was gath
 ## Data
 The dataset contains 26,457 tweets. All the tweets were pulled using twint, a twitter data gathering python package. The search queries were "universal healthcare","affordable healthcare", and "healthcare", all of which were removed as stopwords before topic modeling. 
 
+### Breakdown of Code Notebooks:
+- [This Notebook](https://github.com/mehiks11/Universal_Healthcare_NLP/blob/master/Code/Data%20Pulling%20(1).ipynb) contains code for pulling data using twint.
+- [This Notebook](https://github.com/mehiks11/Universal_Healthcare_NLP/blob/master/Code/Data%20Cleaning%20(1).ipynb) contains code for data cleaning.
+- [This Notebook](https://github.com/mehiks11/Universal_Healthcare_NLP/blob/master/Code/Modeling%20(1)%20-%20Initial%20Topic%20Modeling.ipynb) contains code for Topic Modeling.
+- [This Notebook](https://github.com/mehiks11/Universal_Healthcare_NLP/blob/master/Code/Modeling%20(2)%20-Sentiment%20Analysis.ipynb) contains code for whole data sentiment analysis.
+- [This Notebook](https://github.com/mehiks11/Universal_Healthcare_NLP/blob/master/Code/Modeling%20(3)%20-%20Topic%20Modeling%20by%20Sentiment%20Analyzed%20Groups.ipynb) contains code for sentiment analysis by topic.
+
+
 ## Algorithms
 
 *Data Preprocessing*
@@ -60,4 +68,4 @@ Most to Least Negative sentimented:
 - sklearn sentiment vader
 
 ## Communication
-There are slides accompanying the notebooks of code that outline the process/workflow of the entire project. 
+There are [slides](https://github.com/mehiks11/Universal_Healthcare_NLP/blob/master/Deliverables/Universal%20Healthcare%20NLP%20ppt.pdf) accompanying the notebooks of code that outline the process/workflow of the entire project. 
