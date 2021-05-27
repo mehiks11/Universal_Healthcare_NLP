@@ -2,7 +2,8 @@
 Mehika Patel
 
 ## Abstract
-The goal of this project was to use natural language processing techniques to craft a topic model, delineating subtopics of discussion surrounding universal healthcare on twitter. I worked with twitter data gathered through python's tweet gathering package, [twint](https://pypi.org/project/twint/) to achieve a promising list of 7 subtopics that delineate the main categories of conversation surrounding universal healthcare. After refining an interpretted topic model, I performed sentiment analysis on each of the topics from the topic model to analyse what subtopics might be more contentious and should be approached with more caution/analysis/thoughtfulness. 
+The goal of this project was to use natural language processing techniques to craft a topic model, delineating subtopics of discussion surrounding universal healthcare on twitter. I worked with twitter data gathered through python's tweet gathering package, twint to identify a list of 7 subtopics that are the main categories of conversation surrounding universal healthcare. After refining an interpretted topic model, I performed sentiment analysis on each of the topics from the topic model to analyse what subtopics might be more contentious and should be approached with more caution/analysis/thoughtfulness.
+
 
 ## Design
 This project was designed according to a generic NLP workflow. One data was gathered, preprocessed, and further explored, it was vectorized and topic modeling was initiated, followed by sentiment analysis. The topic model have potential as a research outline for universal healthcare campaigns.  Campaigns aiming to morph conversations surrounding universal healthcare, can use this topic model to initiate growing an understanding of hestitations against universal healthcare so they may better craft rebuttals against the hesitations. 
